@@ -44,5 +44,14 @@ app.put("/products/:id", (req, res) => {
     return res.json({ message: "produto alterado"});
 })
 
+app.delete("/products/:id", (req, res) => {
+  const { id } = req.params;
+
+  const productIndex = products.findIndex((product) => product.id === id);
+
+  products.splice(productIndex, 1);
+
+  return res.json({ message: "produto removido" });
+});
 
 app.listen(4002, () => console.log("Servidor aqui 4002"));

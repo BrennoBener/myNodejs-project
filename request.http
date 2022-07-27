@@ -3,7 +3,7 @@ Content-Type: application/json
 
 {
   "name": "Mouse Gamer",
-  "price": 50
+  "price": 5000
 }
 
 ###
@@ -23,3 +23,7 @@ Content-Type: application/json
   "name": "Mouse Gamer muito bom",
   "price": 102154
 }
+
+
+###
+DELETE  http://localhost:4002/products/e7ee7b4c-ea45-4f9a-982f-e0195714543f
