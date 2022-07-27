@@ -3,7 +3,7 @@ Content-Type: application/json
 
 {
   "name": "Mouse Gamer",
-  "price": 500
+  "price": 50
 }
 
 ###
@@ -12,4 +12,14 @@ GET http://localhost:4002/products
 
 ###
 
-GET http://localhost:4002/products/981011a3-0258-4d70-91a2-63f4413b4b5f
+GET http://localhost:4002/products/1f7387d2-2bd4-441a-9694-f10ef60c84e2
+
+
+###
+PUT http://localhost:4002/products/d1cc8669-3423-44b9-9174-33722639b6fd
+Content-Type: application/json
+
+{
+  "name": "Mouse Gamer muito bom",
+  "price": 102154
+}
