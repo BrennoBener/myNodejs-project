@@ -2,8 +2,8 @@ POST http://localhost:4002/products
 Content-Type: application/json
 
 {
-  "name": "Mouse Gamer",
-  "price": 5000
+  "name": "Carro",
+  "price": 34343
 }
 
 ###
@@ -12,18 +12,16 @@ GET http://localhost:4002/products
 
 ###
 
-GET http://localhost:4002/products/1f7387d2-2bd4-441a-9694-f10ef60c84e2
-
 
 ###
-PUT http://localhost:4002/products/d1cc8669-3423-44b9-9174-33722639b6fd
+PUT http://localhost:4002/products/af43cf49-4ce5-4dae-9b27-48cb510c7100
 Content-Type: application/json
 
 {
-  "name": "Mouse Gamer muito bom",
-  "price": 102154
+  "name": "Mouse",
+  "price": 300
 }
 
 
 ###
-DELETE  http://localhost:4002/products/e7ee7b4c-ea45-4f9a-982f-e0195714543f
+DELETE  http://localhost:4002/products/f48da998-e01f-4205-bc74-ee5429f68be1
