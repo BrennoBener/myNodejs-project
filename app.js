@@ -20,4 +20,8 @@ app.post("/products", (req, res) => {
   return res.json(anyProducts);
 });
 
+app.get("/products", (req, res) => {
+  return res.json(products)
+})
+
 app.listen(4002, () => console.log("Servidor aqui 4002"));
