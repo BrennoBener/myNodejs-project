@@ -21,7 +21,14 @@ app.post("/products", (req, res) => {
 });
 
 app.get("/products", (req, res) => {
-  return res.json(products)
-})
+  return res.json(products);
+});
+
+app.get("/products/:id", (req, res) => {
+  const { id } = req.params;
+  const anyProducts = products.find((products) => products.id === id);
+
+  return res.json(anyProducts);
+});
 
 app.listen(4002, () => console.log("Servidor aqui 4002"));
