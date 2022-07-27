@@ -1,0 +1,1 @@
+Utilizei nodemon com script devm para atualizar o servidor e nao ter que sempre chamar o node <arquivo>.

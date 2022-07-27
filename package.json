@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-project",
+  "version": "1.0.0",
+  "description": "Treinando projeto com Nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "devm": "nodemon app.js"
+  },
+  "author": "Brenno Bener",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
